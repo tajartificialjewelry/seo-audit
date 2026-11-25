@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Setup | SEO Agent</title><meta name="robots" content="noindex"><link rel="stylesheet" href="style.css"></head>
+<body><div class="wrap prose"><div id="nav"></div><main>
+<h1>Connect your backend</h1>
+<p>Do this once. Paste your Google Apps Script Web app URL, test it, then download a ready-made <b>config.js</b> and replace the old file in your GitHub repo.</p>
+<div class="card">
+<label>Web app URL (ends with /exec)<input id="url" placeholder="https://script.google.com/macros/s/.../exec"></label>
+<label>Site name<input id="name" value="SEO Agent"></label>
+<label>Contact email<input id="mail" type="email" placeholder="you@yourdomain.com"></label>
+<label>AdSense client (optional)<input id="ads" placeholder="ca-pub-1234567890123456"></label>
+<label>AdSense slot (optional)<input id="slot" placeholder="1234567890"></label>
+<button class="go" id="test">Test connection</button><button class="go alt" id="make">Download config.js</button>
+<p id="msg" class="small" role="status"></p></div>
+<h2>After downloading</h2>
+<ol><li>Open your GitHub repo, click <b>config.js</b>, then the pencil icon (or Add file &gt; Upload files to replace it).</li><li>Paste or upload the new content and commit.</li><li>Wait 1 to 2 minutes, then press Ctrl+F5 on your site.</li></ol>
+</main><div id="foot"></div></div><script src="config.js"></script><script src="site.js"></script><script src="setup.js"></script></body></html>
