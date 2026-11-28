@@ -1,7 +1,7 @@
 // Edit these values. Nothing here is secret.
 window.CFG = {
   NAME: "SEO Agent",
-  API_URL: "https://script.google.com/macros/s/AKfycb.../exec",   // see README step 2
+  API_URL: "https://script.google.com/macros/s/AKfycbyqZGXssOisncBTDU0Aw6zhNQvDVHRR62qAApzJxU6kan0E0WLtWSHcYKfwrBf1jEr7/exec",   // see README step 2
   //API_URL: "PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL",   // see README step 2
   CONTACT: "you@yourdomain.com",
   ADSENSE_CLIENT: "",   // e.g. ca-pub-1234567890123456 (after AdSense approval)
